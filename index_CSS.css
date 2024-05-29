@@ -1,0 +1,138 @@
+body {
+    background-color: #050505;
+    height:100%;
+    margin:0;
+    padding:0;
+
+}
+
+h1 {
+ margin-top: 1%;
+}
+
+#header1 {
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.7px;
+}
+
+#header1:hover {
+    text-decoration: none;
+    color: rgb(167, 185, 201);
+    float: right;
+    margin: 10px;
+}
+
+h2 {
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.7px;
+}
+
+#h2 {
+    text-decoration: none;
+    float: inherit;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.textdec1:hover{
+    text-decoration: none;
+    color: rgb(192, 203, 214);
+}
+
+.textdec1 {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.textdec2 {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#h2bis {
+   
+    float: none;
+    margin-left: 50px;
+    
+}
+
+h3 {
+    text-decoration: none;
+    color: aliceblue;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.7px;
+    margin-left: 50px;
+}
+
+details {
+    user-select: none;
+}
+  
+details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+}
+  
+details[open] summary span.icon {
+    transform: rotate(180deg);
+}
+  
+  summary {
+    display: flex;
+    cursor: pointer;
+}
+  
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.categorie {
+    margin-left: -100px;
+}
+
+#souscategorie {
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 0.5%;
+    font-size: larger;
+    color: rgb(184, 196, 207);
+}
+
+.categorie1 {
+    margin-top: -15px;
+    margin-left: 62px;
+}
+
+.categorie2 {
+    margin-top: -15px;
+    margin-left: 62px;
+}
+
+#col_1 {
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:410px;
+    padding:10px;
+}
+
+#col_2 {
+    height:100%;
+    margin-top:0px;
+    margin-right:0px;
+    margin-left:430px;
+    padding:10px;
+    overflow:hidden;
+} 
