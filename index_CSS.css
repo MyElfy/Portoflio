@@ -121,7 +121,7 @@ summary::-webkit-details-marker {
 
 #col_1 {
     height:100%;
-    position:absolute;
+    position:fixed;
     top:0%;
     left:0%;
     width:410px;
