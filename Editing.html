@@ -6,11 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <nav> 
-            <div>
-                <h1><a href="info.html" id="header1">INFO</a></h1>
-            </div>
-        </nav>
         <div id="col_1">
             <div>
                 <h2 id="h2"><a href="index.html" class="textdec1">SAMI BOUBGUIRA</a></h2>
@@ -65,12 +60,17 @@
                 <br>
                 <div>
                     <br>
-                    <h2 class="categorie1"><a href="Photo.html" class="textdec2">> Photographie_</a></h2>
+                    <h2 class="categorie1"><a href="Photo.html" class="textdec2">> Photography_</a></h2>
                 </div>
                 <div>
                     <br>
                     <br>
                     <h2 class="categorie1"><a href="Workshop.html" class="textdec2">> Workshops_</a></h2>
+                </div>
+                <br>
+                <div>
+                    <br>
+                    <h2 class="categorie2"><a href="Perso.html" class="textdec2">> Personnal_Work_</a></h2>
                 </div>
                 <br>
             </div>
@@ -80,25 +80,25 @@
             <img class="imgC" src="Images/CartePostale.jpg" width="75%" height="75%">
             <img class="imgC" src="Images/chimere.jpg" width="75%" height="75%">
             <img class="imgC" src="Images/KingKaiju.jpg" width="50%" height="50%">
-                <button onclick="topFunction()" id="myBtn" title="Go to top">⏏</button>
-                <script>
-                    let mybutton = document.getElementById("myBtn");
+            <button onclick="topFunction()" id="myBtn" title="Go to top">⏏</button>
+            <script>
+                let mybutton = document.getElementById("myBtn");
+                
+                window.onscroll = function() {scrollFunction()};
+                
+                function scrollFunction() {
+                  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                  } else {
+                    mybutton.style.display = "none";
+                  }
+                }
                     
-                    window.onscroll = function() {scrollFunction()};
-                    
-                    function scrollFunction() {
-                      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        mybutton.style.display = "block";
-                      } else {
-                        mybutton.style.display = "none";
-                      }
-                    }
-                    
-                    function topFunction() {
-                      document.body.scrollTop = 0;
-                      document.documentElement.scrollTop = 0;
-                    }
-                    </script>
+                function topFunction() {
+                  document.body.scrollTop = 0;
+                  document.documentElement.scrollTop = 0;
+                }
+            </script>
         </div>
     </body> 
 </html>
