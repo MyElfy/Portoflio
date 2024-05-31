@@ -7,7 +7,12 @@ body {
 }
 
 h1 {
- margin-top: 1%;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30.7px;
+    text-align: left;
+    margin-left: 100px;
 }
 
 #header1 {
@@ -136,3 +141,23 @@ summary::-webkit-details-marker {
     padding:10px;
     overflow:hidden;
 } 
+#pfp {
+    margin-left: 75%;
+    margin-top: 2%;
+}
+
+#p{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.7px;
+    margin-left: 100px;
+}
+#p2{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.7px;
+    margin-left: 100px;
+    margin-top: 15%;
+}
